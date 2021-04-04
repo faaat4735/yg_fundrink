@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/bg_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_xiayj"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/his_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sw_20dp"
+                android:layout_marginTop="@dimen/sw_30dp"
+                android:text="饮水报告"
+                android:textSize="@dimen/sw_20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+            <TextView
+                android:id="@+id/his_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sw_20dp"
+                android:text="助您养成健康饮水习惯"
+                app:layout_constraintLeft_toLeftOf="@+id/his_title"
+                app:layout_constraintTop_toBottomOf="@+id/his_title"></TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/sw_5dp"
+                android:layout_marginTop="@dimen/sw_15dp"
+                android:layout_marginRight="@dimen/sw_5dp"
+                android:background="@drawable/img_task_mid"
+                app:layout_constraintLeft_toLeftOf="@+id/bg_1"
+                app:layout_constraintRight_toRightOf="@+id/bg_1"
+                app:layout_constraintTop_toBottomOf="@+id/bg_1">
+
+                <TextView
+                    android:id="@+id/tv_tx1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="总喝水量"
+                    android:textColor="#34353F"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_tx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="4000 ml"
+                    android:textColor="#1D2CC1"
+                    android:textSize="40sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx1" />
+
+                <TextView
+                    android:id="@+id/tv_tx3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sw_45dp"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="日均喝水"
+                    android:textColor="#36373E"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx2" />
+
+                <TextView
+                    android:id="@+id/tv_tx4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="100 ml"
+                    android:textColor="#36373E"
+                    android:textSize="30sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/tv_tx3"
+                    app:layout_constraintRight_toRightOf="@+id/tv_tx3"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx3" />
+
+                <TextView
+                    android:id="@+id/tv_tx5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="达标次数"
+                    android:textColor="#36373E"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx2" />
+
+                <TextView
+                    android:id="@+id/tv_tx6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="2 次"
+                    android:textColor="#36373E"
+                    android:textSize="30sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/tv_tx5"
+                    app:layout_constraintRight_toRightOf="@+id/tv_tx5"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx5" />
+
+                <TextView
+                    android:id="@+id/tv_tx7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:layout_marginRight="@dimen/sw_45dp"
+                    android:text="喝水次数"
+                    android:textColor="#36373E"
+                    android:textSize="15sp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx2" />
+
+                <TextView
+                    android:id="@+id/tv_tx8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text="10 次"
+                    android:textColor="#36373E"
+                    android:textSize="30sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/tv_tx7"
+                    app:layout_constraintRight_toRightOf="@+id/tv_tx7"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sw_20dp"
+                    android:text=""
+                    android:textColor="#36373E"
+                    android:textSize="20dp"
+                    app:layout_constraintLeft_toLeftOf="@+id/tv_tx7"
+                    app:layout_constraintRight_toRightOf="@+id/tv_tx7"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_tx8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tx_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sw_5dp"
+                android:layout_marginTop="@dimen/sw_20dp"
+                android:text="历史趋势"
+                android:textColor="#36373E"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_1" />
+
+            <View
+                android:id="@+id/bg_2"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:background="@drawable/img_task_mid"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tx_1"
+                android:layout_marginLeft="@dimen/sw_5dp"
+                android:layout_marginRight="@dimen/sw_5dp"
+                android:layout_marginTop="@dimen/sw_20dp"
+                app:layout_constraintRight_toRightOf="parent">
+            </View>
+            <com.veken.chartview.view.LineChartView
+                android:id="@+id/chart"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                app:axisXItemMargin="@dimen/sw_50dp"
+                app:axisXItemWidth="@dimen/sw_10dp"
+                app:clickable="true"
+                app:defaultStrokeWidth="0.5dp"
+                app:defaultTextSize="16sp"
+                app:endColor="#048BF6"
+                app:isNeedBg="true"
+                android:layout_marginTop="@dimen/sw_20dp"
+                android:layout_marginLeft="@dimen/sw_30dp"
+                app:layout_constraintLeft_toLeftOf="@id/bg_2"
+                app:layout_constraintRight_toRightOf="@id/bg_2"
+                app:layout_constraintTop_toTopOf="@id/bg_2"
+                app:pointClickRadius="3dp"
+                app:pointDefaultRadius="2dp"
+                app:startColor="#90C0E6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

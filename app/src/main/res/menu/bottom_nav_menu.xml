@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="喝水">
+
+    </item>
+    <item android:id="@+id/nav_history"
+        android:icon="@drawable/icon_history"
+        android:title="历史">
+
+    </item>
+    <item android:id="@+id/nav_my"
+        android:icon="@drawable/icon_my"
+        android:title="我的">
+
+    </item>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sw_360dp"
+    android:layout_height="@dimen/sw_80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw_80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/sw_20dp"
+        android:layout_marginRight="@dimen/sw_20dp"
+        android:background="@drawable/img_task_mid"
+        app:layout_constraintLeft_toLeftOf="@id/view"
+        app:layout_constraintLeft_toRightOf="@+id/view"/>
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00"
+        android:textSize="16.67dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/sw_40dp"
+        android:layout_marginTop="@dimen/sw_30dp"
+        app:layout_constraintLeft_toLeftOf="@id/view1"
+        app:layout_constraintTop_toTopOf="@id/view1"/>
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水"
+        android:textSize="16.67dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/sw_100dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_1"
+        app:layout_constraintTop_toTopOf="@id/tv_1"/>
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 ml"
+        android:textSize="16.67dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/sw_100dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_2"
+        app:layout_constraintTop_toTopOf="@id/tv_2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

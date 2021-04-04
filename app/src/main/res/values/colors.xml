@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5BBA7B</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="color_3B">#3B3B3B</color>
+    <color name="color_48">#FF8B48</color>
+    <color name="bg_bottom_navgation">#23282F</color>
+    <color name="tab_uncheck">#919397</color>
+    <color name="color_96">#969696</color>
+    <color name="color_E3">#E3E3E3</color>
+    <color name="color_EE">#EEEEEE</color>
+    <color name="color_58">#FF9258</color>
+    <color name="color_7E">#FF7E7E</color>
+    <color name="color_60">#584F60</color>
+    <color name="color_7D">#73687D</color>
+    <color name="color_F8">#F8F8F8</color>
+    <color name="color_43">#434343</color>
+    <color name="color_EF">#EFEFEF</color>
+    <color name="color_start">#56C690</color>
+    <color name="color_color1">#FFC300</color>
+    <color name="color_color2">#F39947</color>
+    <color name="color_color3">#D35C5C</color>
+    <color name="color_color4">#964CB2</color>
+    <color name="color_end">#D63131</color>
+    <color name="color_56">#4F4656</color>
+
+    <color name="white_0">#00FFFFFF</color>
+    <color name="white_4">#0AFFFFFF</color>
+    <color name="white_5">#0DFFFFFF</color>
+    <color name="white_8">#14FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_8">#14000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_0">#00000000</color>
+
+    <color name="air_level_good">#56C690</color>
+    <color name="air_level_moderate">#FFC300</color>
+    <color name="air_level_lightly_pulled">#F39947</color>
+    <color name="air_level_moderately_pulled">#D35C5C</color>
+    <color name="air_level_heavily_pulled">#964CB2</color>
+    <color name="air_level_severely_pulled">#D63131</color>
+
+</resources>
